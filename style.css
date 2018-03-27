@@ -1,0 +1,315 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background: url('assets/main.png') center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 450px;
+}
+
+section {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.flex-item {
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.flex-item a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.flex-item-trainly a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.flex-item a:hover {
+    color: #00838f;
+    text-decoration: none;
+}
+
+.header__registration {
+    color: #fff;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.header__registration-button {
+    margin-left: 415px;
+    margin-top: 25px;
+    border: 1px white solid;
+    color: #fff;
+    padding: 20px 100px 20px 100px;
+    display: inline-block;
+}
+
+.heading-headset {
+    margin-top: 0;
+    line-height: 1.1;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.parag-headset {
+    font-size: 2.2 rem;
+    line-height: 1.4;
+}
+
+.info-setup {
+    position: absolute;
+    color: #fff;
+    margin-top: 150px;
+}
+
+.button--thin.button--thin-white {
+    border: 1px solid white;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+}
+
+.flex-container-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-item-main {
+    height: 500px;
+    width: 50%;
+    /* padding: 60px;
+    padding-right: 20%; */
+    color: #fff;
+}
+
+.flex-item-main h2, p, a {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.flex-item-main p {
+    font-size: 30px;
+}
+
+.footer-shipping-container {
+    background-color: #0f0d0e;
+    border-bottom: 1px solid #323232;
+    border-top: 1px solid #323232;
+}
+
+.login-header {
+    margin-left: 1650px;
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.login-header a {
+    color: white;
+    font-size: 20px;
+}
+
+.main {
+    background: #000;
+}
+
+.history {
+    background: #000;
+}
+/* 
+.history img {
+    margin: 0 auto;
+    display: block;
+} */
+
+.history--title {
+    color: #fff;
+    font-size: 20px;
+    margin: 0!important;
+    padding: 10px;
+    text-indent: 1em;
+}
+
+.last-history {
+    width: 1000px;
+}
+
+.disco {
+    background: #000;
+    height: 1000px;
+}
+
+.table-dark {
+    background-color: #000!important;
+}
+
+tr {
+    font-weight: bold!important;
+}
+
+tr img {
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
+}
+
+tr span {
+    padding-top: 25px;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.registration {
+    height: 700px;
+    background: #000;
+}
+body {
+    background-color: #eee;
+}
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #000;
+    border-radius: 0.3em;
+}
+
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+
+form {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+form button {
+    background-color: #000!important;
+    border: 1px solid #fff!important;
+}
+
+label a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.flex-item {
+    height: 50px;
+}
+
+.shop {
+    padding-top: 30px;
+    height: 1300px;
+    background: #fff;
+}
+
+.title-shop {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0!important;
+    padding-left: 76px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cup {
+    width: 540px;
+    height: 540px;
+}
+
+.item-flex {
+    flex-basis: 400px;
+    margin: 5px;
+    margin-left: 2px;
+}
+
+.item-flex span {
+    font-size: 30px;
+}
+
+.col-lg-12 {
+    padding: 35px!important;
+    border-bottom: 1px solid #000;
+}
+
+.event-date {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.event-info {
+    margin-left: 350px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sold {
+    margin-left: 150px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.sold-1 {
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 115px!important;
+}
+
+.sold-2 {
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 165px!important;
+}
+
+.sold-3 {
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 71px!important;
+}
+
+.met {
+    border: 1px solid #fff;
+
+}
